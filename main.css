@@ -1,0 +1,26 @@
+
+
+
+.calc-container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(5, 50px) ;
+}
+
+  
+
+#display {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: rgb(80, 90, 77);
+}
+
+.dark {
+    background-color: chocolate;
+}
+
+
+.light {
+    background-color: coral;
+}
